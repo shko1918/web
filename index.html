@@ -1,50 +1,88 @@
-<!DOCTYPE html> <html> <head> <title>eat healthy live healthy</title> <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eat Healthy Live Healthy</title>
+    <style>
+        /* Make the page fill the screen */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-  h1 {
-    color: maroon;
-    text-align: center;
-  }
+        /* Container fills full screen */
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* vertical centering */
+            align-items: center;     /* horizontal centering */
+        }
 
-  a:link { color: green; }
-  a:active { color: blue; }
-  a:visited { color: red; }
+        h1 {
+            color: maroon;
+            text-align: center;
+        }
 
-  table {
-    border: 2px solid blue;
-    border-collapse: collapse;
-    width: 100%;
-  }
+        a:link { color: green; }
+        a:active { color: blue; }
+        a:visited { color: red; }
 
-  table th, table td {
-    border: 2px solid blue;
-    padding: 5px;
-  }
+        table {
+            border: 2px solid blue;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
-  caption {
-    color: blue;
-    font-weight: bold;
-  }
+        table th, table td {
+            border: 2px solid blue;
+            padding: 5px;
+        }
 
-  .container {
-    border: 2px solid black;
-    padding: 20px;
-    width: 100%;       /* Fill width */
-    height: 100vh;     /* Fill height of viewport */
-    box-sizing: border-box; /* Include padding and border in width/height */
-  }
+        caption {
+            color: blue;
+            font-weight: bold;
+        }
 
-  .links {
-    margin-top: 20px;
-  }
-</style>
-</head> <body> <div class="container"> <h1>KHAO PIYO RESTAURANT</h1> <p><b>Collect formation for</b></p> <ul> <li><a href="one.html">Menus</a></li> <li><a href="two.html">Reservation</a></li> <li><a href="three.html">Catering</a></li> <li><a href="four.html">Tours</a></li> </ul> <table> <caption>Menus Available are</caption> <tr><td>1</td><td>INDIAN</td></tr> <tr><td>2</td><td>ITALIAN</td></tr> <tr><td>3</td><td>CONTINENTAL</td></tr> <tr><td>4</td><td>TILAI</td></tr> </table> <br> <img src="Restaurant.jpg" alt="Restaurant Image" width="150"> <p> For further enquiries and reservations <a href="mailto:abc@xyz.com">Contact Us.</a> </p> </div> </body> </html>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
+        ul li {
+            margin: 5px 0;
+        }
 
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KHAO PIYO RESTAURANT</h1>
+        <p><b>Collect formation for</b></p>
+        <ul>
+            <li><a href="one.html">Menus</a></li>
+            <li><a href="two.html">Reservation</a></li>
+            <li><a href="three.html">Catering</a></li>
+            <li><a href="four.html">Tours</a></li>
+        </ul>
+        <table>
+            <caption>Menus Available are</caption>
+            <tr><td>1</td><td>INDIAN</td></tr>
+            <tr><td>2</td><td>ITALIAN</td></tr>
+            <tr><td>3</td><td>CONTINENTAL</td></tr>
+            <tr><td>4</td><td>TILAI</td></tr>
+        </table>
+        <img src="Restaurant.jpg" alt="Restaurant Image" width="150">
+        <p>For further enquiries and reservations <a href="mailto:abc@xyz.com">Contact Us.</a></p>
+    </div>
 </body>
 </html>
+
